@@ -23,6 +23,3 @@ def domain_name(url):
         url = after_dot_com.sub('', url)
 
     return url
-
-
-print(domain_name("www.xakep.ru"))
